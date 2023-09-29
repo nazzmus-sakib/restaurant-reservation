@@ -1,0 +1,49 @@
+/* common style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.light-font {
+  font-family: "Roboto Slab", serif;
+}
+/* style for fixed navbar */
+.fixed-navbar {
+  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12px);
+}
+/* style for reservation cover page */
+.reservation-cover {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./cover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 10px solid #ca9c5e;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3;
+}
+
+/* style for about page */
+.about-container {
+  background-image: url("./assets/about.jpg");
+  height: 444px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* style for image grid showcase */
+.showcase img:hover {
+  cursor: pointer;
+  scale: 1.06;
+  transition: scale 0.5s ease-in-out;
+}
+/* atyle for footer nav link */
+.footer-link a:hover {
+  color: #ca9c5e;
+  transition: color 0.3s ease;
+}
